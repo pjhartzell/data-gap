@@ -1,0 +1,102 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "MCD43A4.A2023205.h08v05.061.2023216154702",
+    "properties": {
+        "eo:cloud_cover": 0,
+        "datetime": "2023-07-24T00:00:00Z",
+        "start_datetime": "2023-07-16T00:00:00.000Z",
+        "end_datetime": "2023-07-31T23:59:59.999Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -103.6998287,
+                    29.9062515
+                ],
+                [
+                    -117.3606319,
+                    40.0852256
+                ],
+                [
+                    -130.5407289,
+                    40
+                ],
+                [
+                    -115.36955,
+                    29.8308029
+                ],
+                [
+                    -103.6998287,
+                    29.9062515
+                ]
+            ]
+        ]
+    },
+    "links": [],
+    "assets": {
+        "BRDF_Albedo_Band_Mandatory_Quality_Band1": {
+            "href": "./BRDF_Albedo_Band_Mandatory_Quality_Band1.tif",
+            "type": "image/tiff; application=geotiff; cloud-optimized=true",
+            "title": "BRDF_Albedo_Band_Mandatory_Quality_Band1",
+            "proj:epsg": null,
+            "proj:wkt2": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+            "proj:shape": [
+                2400,
+                2400
+            ],
+            "proj:transform": [
+                463.31271652791725,
+                0.0,
+                -11119505.196667,
+                0.0,
+                -463.3127165279167,
+                4447802.078667,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "Nadir_Reflectance_Band1": {
+            "href": "./Nadir_Reflectance_Band1.tif",
+            "type": "image/tiff; application=geotiff; cloud-optimized=true",
+            "title": "Nadir_Reflectance_Band1",
+            "proj:epsg": null,
+            "proj:wkt2": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+            "proj:shape": [
+                2400,
+                2400
+            ],
+            "proj:transform": [
+                463.31271652791725,
+                0.0,
+                -11119505.196667,
+                0.0,
+                -463.3127165279167,
+                4447802.078667,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        -130.540729,
+        29.830803,
+        -103.699829,
+        40.232235
+    ],
+    "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+    ],
+    "collection": "MCD43A4.v061"
+}
